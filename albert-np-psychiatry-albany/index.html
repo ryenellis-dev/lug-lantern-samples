@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Albert NP in Psychiatry PLLC · Albany, NY</title>
+<meta name="description" content="Psychiatric care in Albany, NY. Request an appointment with Albert NP in Psychiatry PLLC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --plum:#3b2442;
+  --plum-2:#55355e;
+  --apricot:#e8a87c;
+  --apricot-soft:#f6dcc8;
+  --cream:#fbf6f0;
+  --sand:#f1e8de;
+  --ink:#2a2130;
+  --muted:#6b5f6f;
+  --line:#e4d8cc;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{background:var(--cream);color:var(--ink);font:400 17px/1.6 "Outfit",system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:"Newsreader",Georgia,serif;font-weight:600;line-height:1.15;color:var(--plum)}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 26px;border-radius:999px;background:var(--apricot);color:var(--plum);font-weight:600;font-size:17px;text-decoration:none;border:0;cursor:pointer;transition:transform .15s ease,background .15s ease}
+.btn:hover{background:#efb68e;transform:translateY(-1px)}
+.btn.ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.5)}
+.btn.ghost:hover{background:rgba(255,255,255,.08)}
+
+/* top bar */
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 20px}
+@media (max-width:420px){.mark{font-size:17px}.top .call{font-size:15px}}
+.mark{display:flex;align-items:center;gap:10px;font-family:"Newsreader",serif;font-weight:600;font-size:19px;color:var(--plum);text-decoration:none}
+.mark svg{flex:none}
+.top .call{font-weight:500;text-decoration:none;color:var(--plum-2);white-space:nowrap}
+
+/* hero */
+.hero{background:var(--plum);color:#fff;border-radius:28px;margin:0 12px;position:relative;overflow:hidden}
+.hero .wrap{position:relative;z-index:1;padding:56px 24px 64px}
+.hero .eyebrow{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--apricot-soft)}
+.hero h1{color:#fff;font-size:clamp(36px,9vw,60px);margin:12px 0 16px;max-width:14ch}
+.hero p{font-size:19px;color:#eadfe8;max-width:34ch;margin-bottom:28px}
+.hero .actions{display:flex;flex-wrap:wrap;gap:12px}
+.hero svg.art{position:absolute;right:-80px;bottom:-60px;width:380px;height:380px;opacity:.9}
+@media (min-width:820px){.hero .wrap{padding:88px 48px 96px}.hero svg.art{right:-20px;bottom:-40px;width:520px;height:520px}}
+
+section{padding:64px 0}
+.kicker{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--plum-2);font-weight:600;margin-bottom:8px}
+h2{font-size:clamp(28px,6vw,40px);margin-bottom:12px}
+.lead{color:var(--muted);max-width:52ch}
+
+/* services */
+.cards{display:grid;gap:16px;margin-top:28px}
+@media (min-width:700px){.cards{grid-template-columns:repeat(3,1fr)}}
+.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px}
+.card .dot{width:40px;height:40px;border-radius:12px;background:var(--apricot-soft);display:grid;place-items:center;margin-bottom:16px}
+.card h3{font-size:22px;margin-bottom:6px}
+.card p{color:var(--muted);font-size:16px}
+
+/* steps */
+.steps-bg{background:var(--sand)}
+.steps{list-style:none;display:grid;gap:14px;margin-top:28px;counter-reset:s}
+@media (min-width:700px){.steps{grid-template-columns:repeat(3,1fr)}}
+.steps li{counter-increment:s;background:var(--cream);border-radius:20px;padding:24px;position:relative}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--plum);color:#fff;font-weight:600;margin-bottom:14px}
+.steps h3{font-size:21px;margin-bottom:4px}
+.steps p{color:var(--muted);font-size:16px}
+
+/* about + info */
+.two{display:grid;gap:20px}
+@media (min-width:820px){.two{grid-template-columns:1.2fr 1fr;gap:40px;align-items:start}}
+.info{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px}
+.info dl{display:grid;gap:16px}
+.info dt{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.info dd{font-size:18px}
+.info a{color:var(--plum-2);font-weight:500}
+
+/* form */
+.ask{background:var(--plum);color:#fff;border-radius:28px;margin:0 12px}
+.ask .wrap{padding:56px 24px}
+.ask h2{color:#fff}
+.ask .lead{color:#eadfe8}
+form{display:grid;gap:14px;margin-top:24px;max-width:560px}
+label{display:grid;gap:6px;font-size:15px;font-weight:500;color:#f3ebf1}
+input,select{font:inherit;font-size:17px;min-height:52px;padding:0 16px;border-radius:14px;border:1.5px solid rgba(255,255,255,.25);background:rgba(255,255,255,.07);color:#fff}
+select option{color:var(--ink)}
+input:focus,select:focus{outline:2px solid var(--apricot);outline-offset:1px}
+.note{font-size:14px;color:var(--apricot-soft)}
+.done{display:none;background:var(--apricot-soft);color:var(--plum);border-radius:14px;padding:16px;font-weight:500;max-width:560px;margin-top:20px}
+.done.show{display:block}
+
+.crisis{text-align:center;padding:28px 20px;color:var(--muted);font-size:16px}
+.crisis a{color:var(--plum);font-weight:600}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:15px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+footer small{font-size:13px}
+</style>
+</head>
+<body>
+<div class="ll-concept" role="note">Concept made for Albert NP in Psychiatry PLLC by Lug &amp; Lantern. Not the official site.</div>
+<style>.ll-concept{position:sticky;top:0;z-index:9999;background:#1c2233;color:#f4f5f8;font:500 13px/1.4 system-ui,sans-serif;text-align:center;padding:8px 14px}</style>
+
+<header class="wrap top">
+  <a class="mark" href="#">
+    <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="14" fill="#3b2442"/><path d="M8 18c3-6 11-6 14 0" stroke="#e8a87c" stroke-width="2.4" fill="none" stroke-linecap="round"/><circle cx="15" cy="11" r="2.6" fill="#f6dcc8"/></svg>
+    Albert NP in Psychiatry
+  </a>
+  <a class="call" href="tel:+12404215451">240-421-5451</a>
+</header>
+
+<section class="hero" style="padding:0">
+  <svg class="art" viewBox="0 0 400 400" aria-hidden="true">
+    <circle cx="200" cy="200" r="190" fill="#55355e"/>
+    <circle cx="200" cy="200" r="140" fill="#6a4573"/>
+    <path d="M40 250 C120 190 280 190 360 250" stroke="#e8a87c" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M70 290 C150 240 250 240 330 290" stroke="#f6dcc8" stroke-width="6" fill="none" stroke-linecap="round" opacity=".7"/>
+    <circle cx="200" cy="140" r="34" fill="#e8a87c"/>
+  </svg>
+  <div class="wrap">
+    <div class="eyebrow">Psychiatric care · Albany, NY</div>
+    <h1>Steadier days start with a conversation.</h1>
+    <p>Psychiatric evaluation and medication care in the Capital Region.</p>
+    <div class="actions">
+      <a class="btn" href="#request">Request an appointment</a>
+      <a class="btn ghost" href="tel:+12404215451">Call 240-421-5451</a>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <div class="kicker">What we help with</div>
+    <h2>Care that fits your life</h2>
+    <p class="lead">Psychiatric care from a nurse practitioner, focused on understanding you and finding what helps.</p>
+    <div class="cards">
+      <div class="card">
+        <div class="dot"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7" stroke="#3b2442" stroke-width="2" fill="none"/><circle cx="10" cy="10" r="2.5" fill="#3b2442"/></svg></div>
+        <h3>Psychiatric evaluation</h3>
+        <p>A full first visit to talk through what you're going through and what you want to change.</p>
+      </div>
+      <div class="card">
+        <div class="dot"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><rect x="4" y="6" width="12" height="8" rx="4" stroke="#3b2442" stroke-width="2" fill="none"/><path d="M10 6v8" stroke="#3b2442" stroke-width="2"/></svg></div>
+        <h3>Medication management</h3>
+        <p>A clear plan, explained in plain words, and adjusted together over time.</p>
+      </div>
+      <div class="card">
+        <div class="dot"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10a6 6 0 1 0 2-4.5M4 4v3h3" stroke="#3b2442" stroke-width="2" fill="none" stroke-linecap="round"/></svg></div>
+        <h3>Follow-up visits</h3>
+        <p>Regular check-ins to see how things are going and keep your care on track.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="steps-bg">
+  <div class="wrap">
+    <div class="kicker">How it works</div>
+    <h2>Three simple steps</h2>
+    <ol class="steps">
+      <li><h3>Reach out</h3><p>Send a short request below or call. No health details needed yet.</p></li>
+      <li><h3>We call you back</h3><p>We'll find a time that works and answer your questions.</p></li>
+      <li><h3>Your first visit</h3><p>A relaxed, unhurried evaluation and a plan you understand.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap two">
+    <div>
+      <div class="kicker">About</div>
+      <h2>Albert Kwimi</h2>
+      <p class="lead">Albert NP in Psychiatry PLLC is the Albany practice of Albert Kwimi, a nurse practitioner in psychiatry. The practice is new, and built around listening first.</p>
+    </div>
+    <div class="info">
+      <dl>
+        <div><dt>Location</dt><dd>Albany, NY 12207</dd></div>
+        <div><dt>Phone</dt><dd><a href="tel:+12404215451">240-421-5451</a></dd></div>
+        <div><dt>Insurance &amp; payment</dt><dd>Call to ask about insurance and payment.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="ask" id="request" style="padding:0">
+  <div class="wrap">
+    <div class="kicker" style="color:var(--apricot-soft)">Get started</div>
+    <h2>Request an appointment</h2>
+    <p class="lead">Leave a way to reach you and a few good times. We'll get back to you.</p>
+    <form id="f">
+      <label>Your name<input name="name" autocomplete="name" required></label>
+      <label>Phone or email<input name="contact" autocomplete="tel" required></label>
+      <label>Best times to reach you
+        <select name="time">
+          <option>Weekday mornings</option>
+          <option>Weekday afternoons</option>
+          <option>Weekday evenings</option>
+          <option>Any time</option>
+        </select>
+      </label>
+      <p class="note">Please don't include health details here.</p>
+      <button class="btn" type="submit">Send request</button>
+    </form>
+    <div class="done" id="done" role="status">This is a concept. On the real site this goes straight to Albert NP in Psychiatry PLLC.</div>
+  </div>
+</section>
+
+<p class="crisis">In crisis? Call or text <a href="tel:988">988</a>.</p>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Albert NP in Psychiatry PLLC</span>
+    <small>Concept by Lug &amp; Lantern</small>
+  </div>
+</footer>
+
+<script>
+document.getElementById('f').addEventListener('submit',function(e){
+  e.preventDefault();
+  document.getElementById('done').classList.add('show');
+  this.reset();
+});
+</script>
+</body>
+</html>
