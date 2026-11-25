@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Ashley Pearson LMHC, PLLC · Counseling in New York, NY (concept)</title>
+<meta name="description" content="Concept website for Ashley Pearson LMHC, PLLC, a counseling practice in New York, NY.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --plum:#3d2a40; --plum-2:#5a4160; --peach:#f6e7dd; --apricot:#e3a17a; --sun:#f0c39a;
+  --paper:#fffaf6; --ink:#2a2029; --muted:#6b5d68; --line:#e8d9cf;
+  --serif:"Young Serif",Georgia,serif; --sans:Figtree,system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,svg{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.15;margin:0 0 .5em;color:var(--plum)}
+h1{font-size:clamp(34px,8vw,58px)}
+h2{font-size:clamp(28px,5.5vw,40px)}
+h3{font-size:21px}
+p{margin:0 0 1em}
+.eyebrow{font:600 13px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--plum-2);margin-bottom:14px}
+
+header.top{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{font-family:var(--serif);font-size:19px;color:var(--plum);text-decoration:none;line-height:1.2}
+.brand small{display:block;font:500 12px var(--sans);color:var(--muted);letter-spacing:.06em}
+.call{font-weight:600;text-decoration:none;color:var(--plum);border:1.5px solid var(--plum);border-radius:999px;padding:9px 16px;font-size:15px;white-space:nowrap}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 26px;border-radius:999px;background:var(--plum);color:#fff;text-decoration:none;font-weight:600;font-size:17px;border:0;cursor:pointer;transition:background .2s}
+.btn:hover{background:var(--plum-2)}
+.btn.soft{background:transparent;color:var(--plum);border:1.5px solid var(--plum)}
+.btn.soft:hover{background:var(--peach)}
+
+.hero{padding:26px 0 56px;display:grid;gap:34px}
+.hero p.lead{font-size:19px;color:var(--muted);max-width:30em}
+.hero .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.art{position:relative;aspect-ratio:1/1;max-width:420px;width:100%;margin:0 auto;border-radius:36px;background:linear-gradient(180deg,var(--peach) 0 58%,#ecd3c3 58% 100%);overflow:hidden}
+.art .sun{position:absolute;width:46%;aspect-ratio:1;border-radius:50%;background:var(--sun);left:27%;top:24%}
+.art .hill{position:absolute;border-radius:50%;background:var(--apricot);opacity:.85}
+.art .h1{width:120%;height:60%;left:-40%;top:52%}
+.art .h2{width:110%;height:55%;left:30%;top:60%;background:var(--plum-2);opacity:.9}
+.art .h3{width:90%;height:40%;left:-10%;top:76%;background:var(--plum)}
+@media (prefers-reduced-motion:no-preference){.art .sun{animation:rise 3.2s ease-out both}@keyframes rise{from{transform:translateY(30%);opacity:.4}to{transform:none;opacity:1}}}
+
+section{padding:60px 0}
+.band{background:var(--peach)}
+.cards{display:grid;gap:16px;margin-top:26px}
+.card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px}
+.card p{color:var(--muted);margin:0}
+.dot{width:38px;height:38px;border-radius:50%;background:var(--sun);margin-bottom:14px;position:relative}
+.dot::after{content:"";position:absolute;inset:9px;border-radius:50%;background:var(--plum)}
+
+.steps{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:18px;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:start}
+.steps li::before{content:counter(s);width:52px;height:52px;border-radius:50%;background:var(--plum);color:#fff;font:400 22px/52px var(--serif);text-align:center}
+.steps h3{margin:6px 0 4px}
+.steps p{color:var(--muted);margin:0}
+
+.about{display:grid;gap:26px;align-items:center}
+.mono{width:150px;height:150px;border-radius:50%;background:var(--plum);color:var(--sun);display:grid;place-items:center;font:400 54px var(--serif)}
+
+.info{display:grid;gap:14px;margin-top:24px}
+.info div{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px 20px}
+.info b{display:block;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--plum-2);margin-bottom:4px}
+.info a{font-weight:600}
+
+.request{background:var(--plum);color:#f8eee8}
+.request h2{color:#fff}
+.request p{color:#e7d6dc}
+form{display:grid;gap:14px;margin-top:22px;max-width:560px}
+label{display:grid;gap:6px;font-weight:600;font-size:15px;color:#fff}
+input,select,textarea{font:inherit;font-size:16px;padding:13px 14px;border:1px solid transparent;border-radius:14px;background:#fff;color:var(--ink);width:100%}
+input:focus,select:focus,textarea:focus{outline:3px solid var(--sun);outline-offset:1px}
+.note{font-size:14px;color:#e7d6dc;margin:0}
+.request .btn{background:var(--sun);color:var(--plum)}
+.request .btn:hover{background:#f6d4b2}
+.done{display:none;background:#fff;color:var(--plum);border-radius:16px;padding:18px 20px;font-weight:600;margin-top:18px;max-width:560px}
+
+.crisis{text-align:center;padding:22px 0;font-size:15px;color:var(--muted);background:var(--peach)}
+.crisis a{font-weight:700;color:var(--plum)}
+footer{padding:28px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between}
+
+@media (min-width:760px){
+  .hero{grid-template-columns:1.1fr .9fr;align-items:center;padding:50px 0 80px}
+  .cards{grid-template-columns:repeat(3,1fr)}
+  .steps{grid-template-columns:repeat(3,1fr)}
+  .steps li{grid-template-columns:1fr}
+  .about{grid-template-columns:180px 1fr}
+  .info{grid-template-columns:repeat(3,1fr)}
+  section{padding:84px 0}
+}
+</style>
+</head>
+<body>
+<div class="ll-concept" role="note">Concept made for Ashley Pearson LMHC, PLLC by Lug &amp; Lantern. Not the official site.</div>
+<style>.ll-concept{position:sticky;top:0;z-index:9999;background:#1c2233;color:#f4f5f8;font:500 13px/1.4 system-ui,sans-serif;text-align:center;padding:8px 14px}</style>
+
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="#">Ashley Pearson<small>LMHC, PLLC · New York, NY</small></a>
+    <a class="call" href="tel:+19087706480">Call</a>
+  </header>
+
+  <div class="hero">
+    <div>
+      <div class="eyebrow">Counseling in New York, NY</div>
+      <h1>A steady place to talk things through.</h1>
+      <p class="lead">One-on-one counseling with Ashley Pearson, a Licensed Mental Health Counselor.</p>
+      <div class="actions">
+        <a class="btn" href="#request">Request an appointment</a>
+        <a class="btn soft" href="tel:+19087706480">908-770-6480</a>
+      </div>
+    </div>
+    <div class="art" aria-hidden="true"><span class="hill h1"></span><span class="sun"></span><span class="hill h2"></span><span class="hill h3"></span></div>
+  </div>
+</div>
+
+<section class="band" id="services">
+  <div class="wrap">
+    <div class="eyebrow">What we can work on</div>
+    <h2>Counseling, one person at a time</h2>
+    <div class="cards">
+      <div class="card"><div class="dot"></div><h3>First conversation</h3><p>Talk about what's going on and what you'd like to change.</p></div>
+      <div class="card"><div class="dot"></div><h3>Individual counseling</h3><p>Private, one-on-one sessions at a pace that suits you.</p></div>
+      <div class="card"><div class="dot"></div><h3>Ongoing support</h3><p>Regular sessions to keep making progress over time.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <div class="eyebrow">How it works</div>
+    <h2>Getting started is simple</h2>
+    <ol class="steps">
+      <li><div><h3>Reach out</h3><p>Send a request below or call.</p></div></li>
+      <li><div><h3>Quick call back</h3><p>Ashley gets in touch to answer questions and find a time.</p></div></li>
+      <li><div><h3>First session</h3><p>Meet and start talking about what matters to you.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="band" id="about">
+  <div class="wrap about">
+    <div class="mono" aria-hidden="true">AP</div>
+    <div>
+      <div class="eyebrow">About</div>
+      <h2>Ashley Pearson, LMHC</h2>
+      <p>Ashley is a Licensed Mental Health Counselor and runs Ashley Pearson LMHC, PLLC, a private counseling practice in New York, NY.</p>
+    </div>
+  </div>
+</section>
+
+<section id="info">
+  <div class="wrap">
+    <div class="eyebrow">Practical info</div>
+    <h2>Good to know</h2>
+    <div class="info">
+      <div><b>Location</b>New York, NY 10017</div>
+      <div><b>Phone</b><a href="tel:+19087706480">908-770-6480</a></div>
+      <div><b>Insurance &amp; payment</b>Call to ask about insurance and payment.</div>
+    </div>
+  </div>
+</section>
+
+<section class="request" id="request">
+  <div class="wrap">
+    <h2>Request an appointment</h2>
+    <p>Leave your details and a good time to reach you.</p>
+    <form id="f" novalidate>
+      <label>Your name<input name="name" autocomplete="name" required></label>
+      <label>Phone or email<input name="contact" autocomplete="email" required></label>
+      <label>Best times to reach you
+        <select name="times"><option>Weekday mornings</option><option>Weekday afternoons</option><option>Weekday evenings</option><option>Weekends</option><option>Any time</option></select>
+      </label>
+      <p class="note">Please don't include health details here.</p>
+      <button class="btn" type="submit">Send request</button>
+    </form>
+    <div class="done" id="done" role="status">This is a concept. On the real site this goes straight to Ashley Pearson LMHC, PLLC.</div>
+  </div>
+</section>
+
+<div class="crisis">In crisis? Call or text <a href="tel:988">988</a>.</div>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Ashley Pearson LMHC, PLLC</span>
+    <span>Concept by Lug &amp; Lantern</span>
+  </div>
+</footer>
+
+<script>
+document.getElementById('f').addEventListener('submit',function(e){
+  e.preventDefault();
+  this.style.display='none';
+  var d=document.getElementById('done');d.style.display='block';d.focus&&d.focus();
+});
+</script>
+</body>
+</html>
