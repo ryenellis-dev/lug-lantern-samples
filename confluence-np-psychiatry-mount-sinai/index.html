@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Confluence NP in Psychiatry · Mount Sinai, NY</title>
+<meta name="description" content="Psychiatric care with Promise Awe, psychiatric-mental health nurse practitioner, in Mount Sinai, New York.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap">
+<style>
+:root{
+  --harbor:#1f4540; --harbor-2:#2d5e57; --mist:#eef3f1; --paper:#fbfcfb; --ink:#1d2624; --muted:#56645f;
+  --gold:#c99a4b; --gold-soft:#f3e7d1; --line:#d8e2de;
+  --serif:"DM Serif Display", Georgia, serif; --sans:"Nunito Sans", "Segoe UI", system-ui, sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 var(--sans)}
+a{color:var(--harbor-2)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.15;text-wrap:balance;margin:0}
+h2{font-size:clamp(1.8rem,4vw,2.4rem);color:var(--harbor)}
+.eyebrow{font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:#1d1606;text-decoration:none;font-weight:700;padding:15px 26px;border-radius:999px;border:0;font-size:1rem;cursor:pointer}
+.btn:hover{filter:brightness(1.05)}
+.btn.ghost{background:transparent;color:inherit;border:2px solid currentColor}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+
+/* top bar */
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 0}
+.mark{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff;font-family:var(--serif);font-size:1.25rem}
+.mark svg{flex:none}
+.top a.call{color:#fff;font-weight:700;text-decoration:none;font-size:.95rem;white-space:nowrap}
+
+/* hero */
+.hero{background:var(--harbor);color:#fff;position:relative;overflow:hidden}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;opacity:.55}
+.hero .wrap{position:relative}
+.hero-body{padding:56px 0 88px;max-width:620px;display:grid;gap:20px}
+.hero h1{font-size:clamp(2.4rem,7vw,3.8rem)}
+.hero p{margin:0;font-size:1.15rem;color:#d9e6e2}
+.hero .row{display:flex;gap:12px;flex-wrap:wrap}
+
+section{padding:72px 0}
+.lead{max-width:640px;color:var(--muted);font-size:1.1rem;margin:14px 0 0}
+
+/* services */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:32px}
+.svc{background:var(--mist);border-radius:18px;padding:24px;display:grid;gap:8px;align-content:start}
+.svc h3{font-size:1.35rem;color:var(--harbor)}
+.svc p{margin:0;color:var(--muted);font-size:.98rem}
+
+/* steps */
+.steps{background:var(--mist)}
+.steps ol{list-style:none;padding:0;margin:32px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;counter-reset:s}
+.steps li{counter-increment:s;display:grid;gap:6px}
+.steps li::before{content:counter(s);font-family:var(--serif);font-size:2.4rem;color:var(--gold);line-height:1}
+.steps li b{font-size:1.1rem}
+.steps li span{color:var(--muted)}
+
+/* about */
+.about{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:40px;align-items:center}
+.about .art{aspect-ratio:1;max-width:100%;border-radius:50%;background:radial-gradient(circle at 30% 30%,var(--harbor-2),var(--harbor));display:grid;place-items:center}
+.about p{color:var(--muted)}
+@media (max-width:760px){.about{grid-template-columns:1fr}.about .art{max-width:220px}}
+
+/* visit */
+.visit{background:var(--harbor);color:#fff}
+.visit h2{color:#fff}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:28px}
+.card{background:var(--harbor-2);border-radius:18px;padding:22px}
+.card .eyebrow{color:var(--gold-soft)}
+.card p{margin:6px 0 0;font-size:1.05rem}
+.card a{color:#fff;font-weight:700}
+
+/* form */
+.form-wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:40px}
+@media (max-width:760px){.form-wrap{grid-template-columns:1fr}}
+form{display:grid;gap:14px;background:var(--mist);padding:24px;border-radius:20px}
+label{font-weight:700;font-size:.92rem;display:grid;gap:6px}
+input,select,textarea{font:inherit;padding:13px 14px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);width:100%}
+textarea{min-height:90px;resize:vertical}
+.hint{font-size:.88rem;color:var(--muted);margin:0}
+.thanks{background:var(--gold-soft);border-radius:12px;padding:14px;font-weight:600}
+.crisis{margin-top:28px;font-size:.95rem;color:var(--muted);border-left:3px solid var(--gold);padding-left:14px}
+
+footer{padding:36px 0;font-size:.9rem;color:var(--muted);border-top:1px solid var(--line)}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<!-- Lug & Lantern concept banner -->
+<div class="ll-concept" role="note">Concept made for Confluence NP in Psychiatry by Lug &amp; Lantern. Not the official site.</div>
+<style>.ll-concept{position:sticky;top:0;z-index:9999;background:#1c2233;color:#f4f5f8;font:500 13px/1.4 system-ui,sans-serif;text-align:center;padding:8px 14px}</style>
+
+<header class="hero">
+  <canvas id="streams" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="top">
+      <a class="mark" href="#top" aria-label="Confluence NP in Psychiatry, home">
+        <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><path d="M3 6c7 0 10 6 14 11M31 6c-7 0-10 6-14 11M17 17v14" fill="none" stroke="#c99a4b" stroke-width="2.6" stroke-linecap="round"/></svg>
+        Confluence
+      </a>
+      <a class="call" href="tel:+15803410027">580-341-0027</a>
+    </div>
+    <div class="hero-body" id="top">
+      <span class="eyebrow">Psychiatric care · Mount Sinai, NY</span>
+      <h1>Steady, personal care for your mental health.</h1>
+      <p>Evaluations, medication management, and therapy with a psychiatric nurse practitioner on Long Island's North Shore.</p>
+      <div class="row">
+        <a class="btn" href="#request">Request an appointment</a>
+        <a class="btn ghost" href="tel:+15803410027">Call the office</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="care">
+  <div class="wrap">
+    <span class="eyebrow">How we can help</span>
+    <h2>Care that fits where you are</h2>
+    <p class="lead">Every plan starts with listening. From there, we work out together what will help most.</p>
+    <div class="grid">
+      <article class="svc"><h3>Psychiatric evaluation</h3><p>A thorough first visit to understand what you're going through and what you want to change.</p></article>
+      <article class="svc"><h3>Medication management</h3><p>Careful prescribing and regular check-ins, adjusted as you go.</p></article>
+      <article class="svc"><h3>Psychotherapy</h3><p>Talk-based care alongside, or instead of, medication.</p></article>
+      <article class="svc"><h3>Tics and Tourette syndrome</h3><p>Support and treatment planning for tic disorders.</p></article>
+      <article class="svc"><h3>Psychiatric consultation</h3><p>A second look at a diagnosis or treatment plan.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="steps">
+  <div class="wrap">
+    <span class="eyebrow">Getting started</span>
+    <h2>Three simple steps</h2>
+    <ol>
+      <li><b>Reach out</b><span>Send a request below or call. No health details needed yet.</span></li>
+      <li><b>We call you back</b><span>We'll find a time and answer questions about insurance and payment.</span></li>
+      <li><b>Your first visit</b><span>Your evaluation, then a plan you understand and agree with.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about">
+    <div class="art" aria-hidden="true">
+      <svg viewBox="0 0 120 120" width="60%"><path d="M10 22c25 0 36 22 50 40M110 22c-25 0-36 22-50 40M60 62v46" fill="none" stroke="#c99a4b" stroke-width="5" stroke-linecap="round"/></svg>
+    </div>
+    <div>
+      <span class="eyebrow">About the practice</span>
+      <h2>Promise Awe, psychiatric-mental health nurse practitioner</h2>
+      <p>A confluence is where two rivers meet and carry on as one. Here, it's where your own experience and careful clinical care come together.</p>
+      <p>Promise Awe is a psychiatric-mental health nurse practitioner who sees patients at the practice's office in Mount Sinai.</p>
+    </div>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="wrap">
+    <span class="eyebrow" style="color:var(--gold-soft)">Visit</span>
+    <h2>Find us in Mount Sinai</h2>
+    <div class="cards">
+      <div class="card"><span class="eyebrow">Office</span><p>28 N Country Rd, Suite 205<br>Mount Sinai, NY 11766</p></div>
+      <div class="card"><span class="eyebrow">Phone</span><p><a href="tel:+15803410027">580-341-0027</a></p></div>
+      <div class="card"><span class="eyebrow">Insurance &amp; payment</span><p>Call to ask about insurance and payment options.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="request">
+  <div class="wrap form-wrap">
+    <div>
+      <span class="eyebrow">Request an appointment</span>
+      <h2>Take the first step</h2>
+      <p class="lead">Tell us how to reach you and when works best. We'll get back to you to set up a time.</p>
+      <p class="crisis">In crisis or thinking about suicide? Call or text <b>988</b> any time, or call 911.</p>
+    </div>
+    <form id="req" novalidate>
+      <label>Your name<input id="f-name" name="name" autocomplete="name" required></label>
+      <label>Phone or email<input id="f-contact" name="contact" autocomplete="tel" required></label>
+      <label>Best times to reach you
+        <select id="f-time" name="time"><option>Mornings</option><option>Afternoons</option><option>Evenings</option><option>Any time</option></select>
+      </label>
+      <label>Anything we should know? (optional)<textarea id="f-note" name="note"></textarea></label>
+      <p class="hint">Please don't include health details here. We'll talk about that privately.</p>
+      <button class="btn" type="submit">Send request</button>
+      <div class="thanks" id="thanks" hidden>This is a concept. On the real site, your request goes straight to Confluence NP in Psychiatry.</div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap"><span>© 2026 Confluence NP in Psychiatry PLLC</span><span>Concept by Lug &amp; Lantern</span></div>
+</footer>
+
+<script>
+document.getElementById('req').addEventListener('submit',e=>{e.preventDefault();document.getElementById('thanks').hidden=false});
+// Two streams meeting: slow drifting lines in the hero.
+(()=>{const c=document.getElementById('streams'),x=c.getContext('2d');const still=matchMedia('(prefers-reduced-motion: reduce)').matches;let w,h,t=0;
+function size(){const r=c.getBoundingClientRect(),d=devicePixelRatio||1;w=r.width;h=r.height;c.width=w*d;c.height=h*d;x.setTransform(d,0,0,d,0,0)}
+function draw(){x.clearRect(0,0,w,h);for(let i=0;i<14;i++){const side=i%2?1:-1,k=i/14;x.beginPath();for(let s=0;s<=60;s++){const p=s/60;const meet=Math.min(1,p*1.6);const sx=w*(side>0?1:0)*(1-meet)+w*.62*meet+side*(1-meet)*k*w*.25;const y=h*(.05+p*.95)+Math.sin(p*6+t+i)*8*(1-meet*.6);s?x.lineTo(sx,y):x.moveTo(sx,y)}x.strokeStyle=i%3?'rgba(201,154,75,.25)':'rgba(255,255,255,.18)';x.lineWidth=1.2;x.stroke()}}
+size();addEventListener('resize',()=>{size();draw()});
+if(still)draw();else(function loop(){t+=.006;draw();requestAnimationFrame(loop)})();})();
+</script>
+</body>
+</html>
